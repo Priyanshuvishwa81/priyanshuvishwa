@@ -23,11 +23,4 @@ let textToCopy = "8853756158"
 navigator.clipboard.writeText(textToCopy)
 }
 
- function download() {
-    const link = document.createElement("a");
-    link.href = "Resume-Priyanshu.pdf"; 
-    link.download = "PriyanshuResume.pdf"; 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
+
