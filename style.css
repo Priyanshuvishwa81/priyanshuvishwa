@@ -1,0 +1,60 @@
+.bestOne_slider {
+    height: 70vh;
+
+    position: relative;
+}
+
+.bestOne_Info {
+    position: relative;
+}
+
+.code {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
+
+.play {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.sty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading_text {
+    font-size: x-large;
+}
+
+.font_stys {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myPopover {
+    cursor: pointer;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-card {
+    max-width: 520px;
+    flex: 1 1 300px;
+}
+
+.btn_Styl {
+    margin: 10px;
+}
